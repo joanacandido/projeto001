@@ -1,0 +1,280 @@
+body {
+    margin: 10px;
+    padding: 0;
+
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+.produtos {
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+
+.menu {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    margin-left: -5px;
+    margin-right: -5px;
+    box-shadow: 0px 5px 5px 5px #63e70b;
+}
+
+.rodape {
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 5px;
+}
+
+.ruy{
+    color: #000000;
+}
+
+header .produtos h1  {
+    padding-bottom: 8px;
+    font-size: 50px;
+}
+
+
+
+nav {
+    float: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+nav ul li:hover a {
+    color: #333;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #63e70b;
+}
+
+nav ul li:hover>ul {
+    display: inherit;
+}
+
+
+
+section {
+    padding: 50px 0;
+    text-align: center;
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 25% 25% 25% 25%;
+    line-height: 150%;
+}
+
+section img {
+    max-width: 90%;
+    max-height: 300px;
+    min-height: 300px;
+    height: 300px;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom img {
+    width: 70%;
+transition: transform 0.3s ease-in-out;
+
+}
+.zoom km img{
+    width: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom:hover img {
+    transform: scale(1.1);
+
+}
+
+
+.cta-button {
+    display: inline-block;
+    background-color: #63e70b;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.head{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f8fff3;
+    max-width:100% ;
+    text-align: center;
+  }
+
+  .head h3{
+    font-size: 50px;
+    color: black;
+  }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    padding-left: 150px;
+  }
+
+.col {
+    flex: 1;
+    padding: 10px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 60%;
+    height: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  .card img {
+    width: 100%;
+  }
+  .card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .card p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul ul {
+        top: 0;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    section img {
+        margin-top: 10px;
+    }
+
+    .cta-button {
+        display: block;
+        margin: 20px auto;
+    }
+
+    
+    
+    
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    section {
+        padding: 20px 0;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}
+.suple {
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+.titulo{
+    font-family: sans-serif;
+    font-size: medium;
+    color:black;
+   
+    text-align: center;
+
+}

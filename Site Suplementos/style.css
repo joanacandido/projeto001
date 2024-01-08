@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://th.bing.com/th/id/OIG.n4BmjqA2qjaegOpJJciE?pid=ImgGn') center center fixed;
+    background-size: cover;
+}
+
+
+.cabeca {
+   
+    margin: 0 auto;
+    padding: 5px;
+    position: absolute;
+    margin-top: -22%;
+   margin-left: -70px;
+  
+}
+
+
+
+header .cabeca h1  {
+    padding-bottom: 8px;
+    font-size: 70px;
+    color:black;
+}
+
+
+.contem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.contem-usuario {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.contem-usuario h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contem .run  {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #333;
+    display: flex;
+    
+    
+    
+}
+
+.run  a{
+   
+    text-decoration: none;
+}
+
+
+.run .run1{
+    margin-left: 87px;
+ 
+}
+
+.formulario-usuario input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario-usuario button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.formulario-usuario button:hover {
+    background-color: #45a049;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul ul {
+        top: 0;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    section img {
+        margin-top: 10px;
+    }
+
+    .cta-button {
+        display: block;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    section {
+        padding: 20px 0;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}
+.suple {
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+
+}
